@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_get_api/home/providers/mahasiswa_provider.dart';
 import 'package:flutter_get_api/home/views/detail_view.dart';
 
-import '../../utils/utils.dart';
+import '../../router/router.dart';
 import '../models/model_mahasiswa.dart';
 import 'input_view.dart';
 
