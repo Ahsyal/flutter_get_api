@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_get_api/home/models/model_mahasiswa.dart';
 import 'package:flutter_get_api/home/providers/mahasiswa_provider.dart';
-import 'package:flutter_get_api/utils/utils.dart';
+import 'package:flutter_get_api/router/router.dart';
 
 import 'home_view.dart';
 import 'update_view.dart';
