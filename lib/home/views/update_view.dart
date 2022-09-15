@@ -48,7 +48,7 @@ class UpdateVIew extends StatelessWidget {
                 if (formKey.currentState!.validate()) {
                   await MahasiswaProvider.updateData(fromToMahasiswa());
                   // ignore: use_build_context_synchronously
-                  Utils.routerPush(const HomeView(), context);
+                  Router.routerPush(const HomeView(), context);
                 }
               },
               child: const Text("Update"),
