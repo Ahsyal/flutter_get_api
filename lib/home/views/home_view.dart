@@ -27,7 +27,7 @@ class HomeView extends StatelessWidget {
         },
       ),
       floatingActionButton: FloatingActionButton(onPressed: (){
-        Utils.routerPush(const InputView(), context);
+        Router.routerPush(const InputView(), context);
       }),
     );
   }
@@ -48,7 +48,7 @@ class ListViewWidget extends StatelessWidget {
         final data = list[index];
         return Card(
           child: ListTile(
-            onTap: () => Utils.routerPush(
+            onTap: () => Router.routerPush(
               DetailView(
                 mahasiswa: data,
               ),
